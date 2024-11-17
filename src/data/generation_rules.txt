@@ -1,0 +1,62 @@
+1. Direct Translations Reflecting Indian Speech Patterns
+Condition: Replace sentences with literal translations from regional languages, especially Hindi, with more familiar Indian English phrases.
+Rewarding Conditions: Reward when sentences accurately reflect familiar Indian English phrasing and word order.
+Penalizing Conditions: Penalize if the phrasing is unfamiliar or does not align with Indian conversational norms.
+
+2. Unique Vocabulary and Phrasing
+Condition: Replace neutral or generic English phrases with distinct Indian English phrases that capture cultural nuance.
+Rewarding Conditions: Reward when standard phrases are accurately substituted with culturally familiar Indian expressions.
+Penalizing Conditions: Penalize if phrases remain unchanged or if the meaning significantly deviates from the original.
+
+3. Indian-Specific Synonyms and Expressions
+Condition: Replace standard English words with widely understood Indian English alternatives, especially in casual or familiar contexts.
+Rewarding Conditions: Reward when the substitutions are accurate and contextually appropriate.
+Penalizing Conditions: Penalize if familiar Indian terms are missing or used incorrectly.
+
+4. Indian Syntax Reflecting Hindi Grammar Structure
+Condition: Replace sentences with standard English grammar with structures reflecting Indian English influenced by Hindi syntax.
+Rewarding Conditions: Reward if sentences reflect Indian syntax patterns.
+Penalizing Conditions: Penalize if phrases remain in neutral English structure.
+
+5. Business Formality and Cultural Tone in Expressions
+Condition: Use Indian English expressions that are culturally common, especially in formal or semi-formal settings.
+Rewarding Conditions: Reward when expressions match Indian business and formal communication style.
+Penalizing Conditions: Penalize if phrases sound overly neutral and lose cultural resonance.
+
+6. Selective and Contextual Use of Conversational Emphasis
+Condition: Add culturally relevant conversational markers common in Indian English, like “only,” “no,” where they feel natural and enhance the sentence’s relatability. These should be used sparingly, with a clear purpose in the conversation, and avoided in overly formal contexts.
+Rewarding Conditions:
+Reward the addition of conversational markers when they improve authenticity and align with the sentence’s tone and setting.
+Reward the use of conversational emphasis when it enhances meaning or adds a touch of relatability that would resonate with native Indian English speakers.
+Penalizing Conditions:
+Penalize overuse or repetitive additions of markers like “na,” “ya,” or “only,” especially if used at the end of every sentence.
+Penalize excessive informality in contexts that should maintain a neutral or formal tone, such as professional settings.
+Penalize if conversational markers feel forced, out of place, or detract from the sentence's clarity or intent.
+
+7. Tense and Verb Adjustments to Reflect Indian English
+Condition: Use tense structures common in Indian English.
+Rewarding Conditions: Reward when common Indian English verb forms are applied appropriately.
+Penalizing Conditions: Penalize if verb forms are unchanged or standard when colloquial phrasing is more fitting.
+
+8. Use of Kinship and Familiar Compound Terms
+Condition: Introduce Indian English-specific kinship terms and compounds, especially in familial contexts.
+Rewarding Conditions: Reward when compound expressions are applied accurately and in context.
+Penalizing Conditions: Penalize if compound expressions are omitted where culturally fitting.
+
+9. Non-Standard Verb Redundancy for Emphasis
+Condition: Introduce redundancy in verbs to reflect common Indian English emphasis, especially in spoken contexts.
+Rewarding Conditions: Reward for accurate application of redundancy to match familiar Indian conversational style.
+Penalizing Conditions: Penalize if redundant elements are added unnecessarily or in formal contexts where they may be inappropriate.
+
+10. Selective Integration of Common Indianisms
+Condition: Integrate common Indianisms (from the lists provided) where they naturally fit, preserving sentence clarity and context. 
+Avoid using Indianisms in contexts where they may disrupt the sentence’s meaning, formality, or flow. 
+Ensure that Indianisms only enhance conversational familiarity without appearing out of place or redundant.
+Lists to Use:
+Indianisms Vocabulary:
+["Anticlockwise", "Any doubts?", "Avail", "Bike", "Canteen", "Come home", "Cousin-brother", "Cousin-sister", "Curd", "Cut the call", "Cut the queue", "Designation", "Do the needful", "Dustbin", "Expired", "Good name", "Got fired", "Holiday", "Kindly", "Level Best", "Mugging up", "Out of station", "Passed out", "Pen Drive", "Petrol Bunk", "PIN code", "Prepone", "Puncture", "Purse", "Query", "Queue", "Revert", "Saloon", "Snap", "Standard", "System", "Tariff", "Tie-up", "Tight slap", "Time waste", "Two-wheeler", "Wedding anniversary", "Marriage anniversary", "Write an exam"]
+Rewarding Conditions: Reward for smoothly incorporating Indianisms that fit naturally and enhance conversational authenticity without impacting formality or clarity. Phrases should sound familiar and context-appropriate.
+Penalizing Conditions: Penalize if:
+Indianisms are used redundantly or disrupt sentence flow.
+The added Indianism alters the intended meaning or formality level.
+An incorrect phrase is added in contexts that may confuse or be inappropriate.

@@ -1,0 +1,55 @@
+1. Meaning Preservation
+- Condition: The transformed sentence should retain the original sentence's meaning and context without introducing any significant deviation.
+- Valid Response: Sentences that maintain the original intent while reflecting Indian English patterns.
+- Invalid Response: Sentences where the meaning is altered, critical information is missing, or additional unintended connotations are introduced.
+
+2. Relevance of Indianisms
+- Condition: Indianisms must be incorporated where appropriate, and should align with natural, commonly used Indian English speech.
+- Valid Response: Sentences that use Indianisms sparingly and appropriately to enhance the authenticity of the transformation.
+- Invalid Response: Sentences that include Indianisms that are out of place, redundant, or rarely used in common Indian English conversations.
+
+3. Filler Indianisms Avoidance
+- Condition: Avoid Indianisms that are unnecessary, awkward, or do not enhance the sentence's clarity or relatability.
+- Valid Response: Sentences free from forced or irrelevant fillers that detract from the quality of the sentence.
+- Invalid Response: Sentences containing phrases like "only," "na," or "ya" where they feel unnatural or irrelevant.
+
+4. Contextual Appropriateness
+- Condition: The response should match the tone, setting, and formality of the original sentence.
+- Valid Response: Sentences that appropriately adapt formality levels for business, casual, or conversational settings.
+- Invalid Response: Sentences where the tone is mismatched (e.g., informal expressions used in professional settings or vice versa).
+
+5. Syntax and Grammar Accuracy
+- Condition: Indian English syntax patterns should reflect common regional influences while maintaining grammatical correctness.
+- Valid Response: Sentences with grammatical structures that are natural to Indian English and maintain readability.
+- Invalid Response: Sentences with awkward phrasing, incorrect grammar, or overly literal translations from regional languages.
+
+6. Avoidance of Over-Redundancy
+- Condition: Redundant words or phrases should be used only where they naturally emphasize meaning or add conversational relatability.
+- Valid Response: Sentences with appropriate redundancy that adds value and improves familiarity.
+- Invalid Response: Sentences with unnecessary repetition of words or phrases, especially in formal or structured contexts.
+
+7. Vocabulary Consistency
+- Condition: Use Indian English vocabulary and terms where they improve cultural relatability while maintaining the original sentence's clarity.
+- Valid Response: Sentences that incorporate relevant vocabulary (e.g., "prepone" for "reschedule," "curd" for "yogurt").
+- Invalid Response: Sentences that fail to use contextually fitting terms or introduce uncommon and unfamiliar alternatives.
+
+8. Tense and Verb Adjustments
+- Condition: Ensure the use of Indian English verb forms where they improve naturalness and relatability.
+- Valid Response: Sentences that reflect Indian English preferences in verb usage (e.g., "did you do the needful?" instead of "have you done what was required?").
+- Invalid Response: Sentences with incorrect or overly neutral verb forms that lack cultural adaptation.
+
+9. Sentence Flow and Readability
+- Condition: The sentence should flow naturally and remain easy to understand, reflecting the rhythm of Indian English.
+- Valid Response: Sentences with clear, smooth, and culturally resonant phrasing.
+- Invalid Response: Sentences with clunky, fragmented, or overly complex structures.
+
+10. Natural Integration of Cultural Markers
+- Condition: Add conversational markers (e.g., “only,” “no”) sparingly, ensuring they enhance the sentence's naturalness without compromising clarity.
+- Valid Response: Sentences with cultural markers used purposefully and contextually.
+- Invalid Response: Sentences with overuse, forced integration, or misuse of conversational markers.
+
+11. Avoid Altering Original Sentence's Formality
+- Condition: The transformed sentence should match the formality level of the original sentence and not introduce unwarranted casualness or rigidity.
+- Valid Response: Sentences that mirror the tone and formality of the original (e.g., a formal sentence remains formal post-transformation).
+- Invalid Response: Sentences that shift the tone unnecessarily (e.g., casualizing a professional message).
+
