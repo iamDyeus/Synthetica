@@ -45,8 +45,10 @@ def process_sentence(sentence, generator, validator, fallback, data_handler):
 def save_results(data_handler, original_sentence, processed_sentence):
     """Saves the original and processed sentences using the DataHandler."""
     try:
-        data_handler.save_sample_data(original_sentence, 0)  # Save original sentence
-        data_handler.save_sample_data(processed_sentence, 1)  # Save processed sentence
+        # data_handler.save_sample_data(original_sentence, 0)  
+        # data_handler.save_sample_data(processed_sentence, 1)  
+        data_handler.append_to_dataset(original_sentence, 0) # Save original sentence
+        data_handler.append_to_dataset(processed_sentence, 1) # Save processed sentence
         print(f"[Saved] Original: {original_sentence} | Processed: {processed_sentence}")
     except Exception as e:
         print(f"[Error] Saving failed: {e}")

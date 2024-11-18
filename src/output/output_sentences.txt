@@ -1,0 +1,6 @@
+Could you rotate the knob counter-clockwise to adjust the settings?,0,
+Could you rotate the knob Anticlockwise to adjust the settings?,1,
+After finishing your meal, please throw the cup in the trash can.,0,
+After finishing your meal, Kindly throw the cup in the Dustbin.,1,
+I forgot my wallet at home and had to borrow some cash.,0,
+I went back home na, but I couldn't find my purse, so I had to cut the queue and get some money from a friend.,1,

@@ -4,8 +4,12 @@ from pathlib import Path  # Import pathlib
 
 
 class DataHandler:
-    def __init__(self, rules=Path("data")):
+    def __init__(self, 
+                 rules=Path("data"), 
+                 dataset_path=Path("output/indianism_dataset.json")
+                 ):
         self.rules_path = rules
+        self.dataset_path = dataset_path
         
 
     def get_generation_ruleset(self):
@@ -37,23 +41,33 @@ class DataHandler:
         returns a python list of a small conversation between 2 individuals with different accents
         """
         return [
-            "I think the weather's absolutely dreadful today, isn't it?",
-            "Yeah, it's so hot out here. I can't stand the heat!",
-            "Have you been to the new pub down the street? They serve a brilliant pint of ale.",
-            "Oh, I love craft beer. The local brewery just released a new IPA.",
-            "I fancy a cup of tea. Would you like one as well?",
-            "Coffee's more my thing. A strong black coffee to get me through the day.",
-            "I do hope this meeting doesn't run too late. I need to catch the last train.",
-            "No worries, the meeting should wrap up soon. I'm just hoping to get out in time for happy hour.",
-            "I prefer a good stroll through the park in the afternoon.",
-            "I usually go for a run after work to clear my head.",
-            "I can't quite believe how expensive rent is getting in London these days.",
-            "Housing prices in California are crazy, too. It's getting out of hand.",
-            "I reckon I'll stay in this weekend and catch up on some reading.",
-            "I'm planning to binge-watch a few episodes of my favorite series this weekend.",
-            "Oh, don't get me started on the traffic in central London. It's an absolute nightmare.",
-            "Traffic here is brutal too, especially during rush hour. It's always backed up."
+            "Could you rotate the knob counter-clockwise to adjust the settings?",
+            "After finishing your meal, please throw the cup in the trash can.",
+            "Any questions before we move on to the next topic?",
+            "I forgot my wallet at home and had to borrow some cash.",
+            "The teacher said, 'Do what is needed to complete the project on time.'",
+            "We need to get back to the office before lunch.",
+            "I got a flat tire on my scooter while heading to the gas station.",
+            "She was out of town during her wedding anniversary last week.",
+            "I’m still memorizing all the states and capitals for the quiz tomorrow.",
+            "Let’s jump the line; we’re running late for the movie!",
+            "I left my thumb drive at the computer lab again.",
+            "Do you know the zip code for this area?",
+            "The cafeteria was offering free yogurt samples during lunch today.",
+            "My job title just changed after I got promoted last month.",
+            "He graduated at the top of his class and was offered a great partnership deal.",
+            "Can we reschedule the meeting to earlier in the day?",
+            "The picture on the rate card was very misleading.",
+            "She gave her best effort but still found the exam extremely difficult to take.",
+            "I’ll do my best to meet the deadline, but it’s a tight schedule.",
+            "Is there a haircut salon nearby, or should we look for one online?",
+            "The motorcycle sped past us as if the road was empty.",
+            "After waiting in a line of people for an hour, she finally got her coffee.",
+            "He asked a question during the presentation that left everyone thinking.",
+            "The computer crashed right before I saved my work—what a waste of time!",
+            "He gave me a strong slap on the back when he heard I got the promotion."
         ]
+
     
     def save_dataset(self,dataset):
         with open("output/indianism_dataset.json", "w") as f:
@@ -66,16 +80,28 @@ class DataHandler:
         with open("output/output_sentences.txt", "a") as f:  # Open in append mode
             f.write(f"{sentence},{label},\n")  # Write the sentence,label followed by a newline
 
-    def create_dataset(self,sentences,distilabel_pipeline):
+    def create_dataset(self, sentences, distilabel_pipeline):
         """
-        Creates the dataset and adds sentences to it based on distilabel pipeline
+        Creates the dataset and returns an object with the dataset and the JSON file attached.
         """
         dataset = []
         for sentence in sentences:
-            # Attempt to label with pipeline
-            labeled = distilabel_pipeline(sentence)
-            if labeled:
-                dataset.append(labeled)
-            # Add original sentence with label 0
             dataset.append({"sentence": sentence, "label": 0})
-        return dataset
+        
+        # Return an object with the dataset and the JSON file path
+        return {"dataset": dataset, "json_file": "output/indianism_dataset.json"}
+
+    def append_to_dataset(self, sentence, label):
+        """
+        Appends a new sentence and label to the dataset while maintaining a valid JSON structure.
+        """
+        # Load existing dataset as a list of dictionaries
+        with open(self.dataset_path, "r", encoding="utf-8") as f:
+            dataset = json.load(f)
+
+        # Add the new entry to the list
+        dataset.append({"sentence": sentence, "label": label})
+
+        # Write the updated list back to the file
+        with open(self.dataset_path, "w", encoding="utf-8") as f:
+            json.dump(dataset, f, indent=4)
