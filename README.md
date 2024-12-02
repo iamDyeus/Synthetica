@@ -1,3 +1,5 @@
 # Synthetic Dataset Creation
-I am trying to create synthetic dataset just by using LLMs and a Ruleset
+pipeline to generate high-quality "Indianisms" synthetic datasets using Llama 3.1:8B and an innovative constitutionalAI like ruleset framework. 
 
+## Workflow
+![Pipeline Workflow](./pipeline_diagram.png)
