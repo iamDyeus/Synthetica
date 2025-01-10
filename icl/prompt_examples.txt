@@ -1,0 +1,269 @@
+Input: I have done the needful.
+Indianism: Yes
+
+Input: I have done what is necessary.
+Indianism: No
+
+Input: Please do the needful.
+Indianism: Yes
+
+Input: Please do what is necessary.
+Indianism: No
+
+Input: Kindly revert back to me.
+Indianism: Yes
+
+Input: Please reply to me.
+Indianism: No
+
+Input: Please reply back as soon as possible.
+Indianism: Yes
+
+Input: Please reply as soon as possible.
+Indianism: No
+
+Input: I have preponed the meeting.
+Indianism: Yes
+
+Input: I have rescheduled the meeting.
+Indianism: No
+
+Input: Kindly attend the meeting without fail.
+Indianism: Yes
+
+Input: Please attend the meeting. Do not fail me in this.
+Indianism: No
+
+Input: Please intimate me.
+Indianism: Yes
+
+Input: Please inform me.
+Indianism: No
+
+Input: Do one thing. Take a left turn there.
+Indianism: Yes
+
+Input: You can take a left turn there.
+Indianism: No
+
+Input: Let’s do one thing, let’s order both veg and non-veg.
+Indianism: Yes
+
+Input: Let’s order Vegetarian and Non-Vegetarian.
+Indianism: No
+
+Input: You have carpal tunnel? Do one thing, adjust your chair higher, put something underneath your feet, and put the keyboard on your lap.
+Indianism: Yes
+
+Input: You have carpal tunnel? Adjust your chair higher, put something underneath your feet, and put the keyboard on your lap.
+Indianism: No
+
+Input: If you lose your card or it stops working and you happen to be out of station, then you cannot apply for a new card.
+Indianism: Yes
+
+Input: If you lose your card or it stops working and you happen to be out of town, then you cannot apply for a new card.
+Indianism: No
+
+Input: He is out of station.
+Indianism: Yes
+
+Input: He is out of town.
+Indianism: No
+
+Input: What shall we discuss about today?
+Indianism: Yes
+
+Input: What shall we discuss today?
+Indianism: No
+
+Input: Let’s discuss about the issues.
+Indianism: Yes
+
+Input: Let’s discuss the issues.
+Indianism: No
+
+Input: I’ll order for Pizza.
+Indianism: Yes
+
+Input: I’ll order Pizza.
+Indianism: No
+
+Input: You can be able to understand.
+Indianism: Yes
+
+Input: You will be able to understand.
+Indianism: No
+
+Input: What’s your good name?
+Indianism: Yes
+
+Input: What’s your name?
+Indianism: No
+
+Input: I’m a professional cooker.
+Indianism: Yes
+
+Input: I’m a professional chef.
+Indianism: No
+
+Input: My uncle is on top of my father.
+Indianism: Yes
+
+Input: My uncle lives on the floor above us.
+Indianism: No
+
+Input: Where are you put up?
+Indianism: Yes
+
+Input: Where do you stay?
+Indianism: No
+
+Input: Sheela herself only did this project.
+Indianism: Yes
+
+Input: Sheela did this project by herself.
+Indianism: No
+
+Input: Where your house comes?
+Indianism: Yes
+
+Input: Can you give me directions to your house?
+Indianism: No
+
+Input: I passed out last year from college.
+Indianism: Yes
+
+Input: I graduated last year from college.
+Indianism: No
+
+Input: Are you coming to my house for dinner tonight, no?
+Indianism: Yes
+
+Input: Are you coming to my house for dinner tonight?
+Indianism: No
+
+Input: She is fully tired, ya!
+Indianism: Yes
+
+Input: She is very tired.
+Indianism: No
+
+Input: My mother said me to go to the market.
+Indianism: Yes
+
+Input: My mother asked me to go to the market.
+Indianism: No
+
+Input: I didn’t went to school today.
+Indianism: Yes
+
+Input: I didn’t go to school today.
+Indianism: No
+
+Input: Just like only I went to my uncle’s place.
+Indianism: Yes
+
+Input: I went to my uncle’s house for the heck of it.
+Indianism: No
+
+Input: I’m having a lot of work now.
+Indianism: Yes
+
+Input: I have a lot of work now.
+Indianism: No
+
+Input: I saw it happening with my own two eyes!
+Indianism: Yes
+
+Input: It happened right in front of me.
+Indianism: No
+
+Input: Yesterday, I will be going for a movie.
+Indianism: Yes
+
+Input: Yesterday, I went for a movie.
+Indianism: No
+
+Input: She couldn’t be able to help you.
+Indianism: Yes
+
+Input: She was unable to help you.
+Indianism: No
+
+Input: I like listening musics.
+Indianism: Yes
+
+Input: I like listening to music.
+Indianism: No
+
+Input: My mother made me to study hard.
+Indianism: Yes
+
+Input: My mother ensured that I studied hard.
+Indianism: No
+
+Input: Before me, there are two brothers, then is me, three more sisters are coming.
+Indianism: Yes
+
+Input: I have two elder brothers and three younger sisters.
+Indianism: No
+
+Input: I am very much pleased to see you.
+Indianism: Yes
+
+Input: I am very pleased to see you.
+Indianism: No
+
+Input: I went to the stadium for playing football.
+Indianism: Yes
+
+Input: I went to the stadium to play football.
+Indianism: No
+
+Input: What to do?
+Indianism: Yes
+
+Input: What should I do?
+Indianism: No
+
+Input: He talks English very well.
+Indianism: Yes
+
+Input: He speaks English very well.
+Indianism: No
+
+Input: My birth date is 29th August.
+Indianism: Yes
+
+Input: My date of birth is 29th August.
+Indianism: No
+
+Input: The water is good for drinking.
+Indianism: Yes
+
+Input: The water is good to drink.
+Indianism: No
+
+Input: I came here for the purpose to learn English.
+Indianism: Yes
+
+Input: I came here for the purpose of learning English.
+Indianism: No
+
+Input: My family members have gone to the New Delhi.
+Indianism: Yes
+
+Input: Members of my family have gone to New Delhi.
+Indianism: No
+
+Input: He is an England return professor.
+Indianism: Yes
+
+Input: The professor has returned from England.
+Indianism: No
+
+Input: Are you still try to learning Hindi.
+Indianism: Yes
+
+Input: Are you still trying to learn Hindi?
+Indianism: No
